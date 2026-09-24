@@ -1,0 +1,64 @@
+ekumanov-auto-promote:
+
+  lib:
+    # Stored as the watchlist note when staff untick the trusted group in the
+    # Edit User modal, so the entry explains itself months later.
+    manual_removal_reason: "Removed from {group} by hand — kept out of auto-promotion until taken off the watchlist."
+
+  forum:
+    user_controls:
+      watch_button: Add to watchlist
+      watch_help: Never auto-promote this account. Staff only — they are not told.
+      note_button: Watchlist note
+      note_help: Read or edit the note other staff can see for this account.
+      unwatch_button: Remove from watchlist
+      unwatch_help: Let this account be auto-promoted again once it qualifies.
+      promote_button: "Promote to {group}"
+      fallback_group_name: the trusted group
+      promote_help: Grant the trusted group now, without waiting for the post count.
+      promote_watched_help: Clears the watchlist flag and grants the trusted group now.
+
+    badge:
+      tooltip: "Watchlist · added by {moderator} · {date}"
+      tooltip_with_note: "Watchlist · added by {moderator} · {date} · note attached"
+      unknown_moderator: a moderator
+
+    watch_modal:
+      title: "Add {username} to the watchlist"
+      edit_title: "Watchlist note for {username}"
+      added_by: "Added to the watchlist by {moderator} on {date}."
+      explanation: >
+        Watched accounts are never auto-promoted to the trusted group, however many
+        posts they make. Use this for accounts you suspect are building up a post
+        count in order to unlock private messaging later. The user is not notified
+        and cannot see this flag — only staff can.
+      reason_label: Note for other staff (optional)
+      reason_placeholder: e.g. two generic posts then went quiet
+      submit_button: Add to watchlist
+      save_button: Save note
+
+  admin:
+    permission:
+      manage_watchlist: Manage the promotion watchlist
+
+    settings:
+      regular_group_label: Trusted group
+      regular_group_help: >
+        The group members are promoted into once they qualify. Leave unset to turn
+        auto-promotion off entirely. Guests, Members and Administrators are not
+        offered here.
+      regular_group_none: "— auto-promotion disabled —"
+      required_posts_label: Approved posts required
+      required_posts_help: >
+        How many visible, approved replies a member needs before they are promoted.
+        Event posts such as "renamed the discussion" do not count.
+      min_account_age_label: Waiting period (hours)
+      min_account_age_help: >
+        How long the member must wait before being promoted, on top of the post
+        count. Set to 0 for no waiting period.
+      age_from_post_label: Start the wait at the qualifying post
+      age_from_post_help: >
+        When on, the waiting period starts when the member makes the post that
+        completes their quota — so someone who registered a year ago but only posts
+        three times today still waits. When off, it counts from registration, which
+        that same account would already have satisfied.
