@@ -2,13 +2,17 @@
 
 > **Read-only archive of released versions of ekumanov/flarum-ext-auto-promote.** Not for installation: use [Packagist](https://packagist.org/packages/ekumanov/flarum-ext-auto-promote) or the [upstream repository](https://github.com/ekumanov/flarum-ext-auto-promote).
 
-**0** versions archived · Latest: [`v1.4.0`](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.4.0) · License: `MIT` · Flarum: `^2.0@beta`
+**5** versions archived · Latest: [`v1.4.0`](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.4.0) · License: `MIT` · Flarum: `^2.0@beta`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-08-18 | `^2.0@beta` | [Browse](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.0.0) |
+| `v1.1.0` | 2026-08-18 | `^2.0@beta` | [Browse](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.1.0) |
+| `v1.2.0` | 2026-08-18 | `^2.0@beta` | [Browse](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.2.0) |
+| `v1.3.0` | 2026-08-18 | `^2.0@beta` | [Browse](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.3.0) |
+| `v1.4.0` | 2026-09-24 | `^2.0@beta` | [Browse](https://github.com/flarchive/ekumanov-flarum-ext-auto-promote/tree/archive/v1.4.0) |
 
 Catalog entry: [packages/ekumanov-flarum-ext-auto-promote.json](https://github.com/flarchive/archive-index/blob/main/packages/ekumanov-flarum-ext-auto-promote.json)
 
